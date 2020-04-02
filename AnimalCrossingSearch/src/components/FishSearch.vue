@@ -97,6 +97,7 @@ export default {
                             j++
                         ) {
                             if (fishList[i].appearNorth[j] === month) {
+                                console.log("i: " + i + " , j: " + j);
                                 tempList[index] = fishList[i];
                                 index++;
                                 continue;
@@ -154,7 +155,7 @@ export default {
                     continue;
                 }
                 if (this.matou && monthList[i].location === "码头") {
-                    tempList[index] = fishList[i];
+                    tempList[index] = monthList[i];
                     index++;
                     continue;
                 }
@@ -163,7 +164,6 @@ export default {
         },
         sort: function() {
             //this.currentMonthFilter();
-            console.log("sorted: " + this.sorted);
             if (this.sorted === "price") {
                 let tempList = this.locationFilter();
                 let n = tempList.length;
@@ -245,9 +245,9 @@ export default {
 .head {
     position: fixed;
     background: rgb(255, 255, 255);
-    left: 0;
     width: 100%;
     z-index: 1000;
+    max-width: 12rem;
 }
 
 .tableCell {

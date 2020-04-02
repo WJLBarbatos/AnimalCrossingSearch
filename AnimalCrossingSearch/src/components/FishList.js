@@ -493,7 +493,7 @@ export const fishList = [
         id: "36",
         name: "神仙鱼",
         icon: "",
-        shadow: "微小",
+        shadow: "",
         shadowIcon: "",
         sellPrice: 3000,  //卖店价格
         location: "河流",

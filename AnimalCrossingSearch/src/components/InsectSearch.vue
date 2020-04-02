@@ -43,7 +43,7 @@
             <br />-->
         </div>
         <br />
-        <div class="table" style="margin-top:2.7rem;">
+        <div class="table" style="margin-top:1.5rem;">
             <div class="tabelCell" v-for="item in insectList">
                 <div class="content-id">{{item.id}}</div>
                 <div class="content">{{item.name}}</div>
@@ -236,9 +236,9 @@ export default {
 .head {
     position: fixed;
     background: rgb(255, 255, 255);
-    left: 0;
     width: 100%;
     z-index: 1000;
+    max-width: 12rem;
 }
 
 .tableCell {
