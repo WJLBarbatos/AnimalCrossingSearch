@@ -3,6 +3,9 @@
         <div class="head">
             <button class="btn" @click="goFish()">鱼类</button>
             <button class="btn" @click="goInsect()">昆虫</button>
+            <br />
+            <br />
+            <hr />
         </div>
     </div>
 </template>
@@ -29,7 +32,7 @@ export default {
 }
 
 .head {
-    position: fixed;
+    position: relative;
     background: rgb(255, 255, 255);
     left: 0;
     width: 100%;
