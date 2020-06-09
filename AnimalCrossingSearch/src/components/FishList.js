@@ -258,7 +258,7 @@ export const fishList = [
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 5500,  //卖店价格
-        location: "水池",
+        location: "池塘",
         appearNorth: [6, 7, 8],
         appearSouth: [1, 2, 12],
         northDesc: "6-8月",

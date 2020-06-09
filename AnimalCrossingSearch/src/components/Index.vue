@@ -1,6 +1,7 @@
 <template>
     <div class="hello">
         <div class="head">
+            <p class="title">动森简单搜</p>
             <button class="btn" @click="goFish()">鱼类</button>
             <button class="btn" @click="goInsect()">昆虫</button>
             <br />
@@ -39,9 +40,16 @@ export default {
     z-index: 1000;
 }
 
+.title {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgb(55, 228, 170);
+}
+
 .btn {
     /* display: inline-block; */
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-left: 15%;
     margin-right: 15%;
     height: 4rem;

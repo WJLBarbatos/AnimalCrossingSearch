@@ -2,9 +2,13 @@
     <div id="app">
         <router-view />
         <footer class="footer">
+            <p>作者好友码：SW-2777-0036-9310</p>
             <p>
-                ©2020&nbsp;
-                <a href="http://beian.miit.gov.cn" target="_blank">沪ICP备20008436号-1</a>
+                ©2020&nbsp;宇宙怪猫&nbsp;
+                <a
+                    href="http://beian.miit.gov.cn"
+                    target="_blank"
+                >沪ICP备20008436号-1</a>
             </p>
         </footer>
     </div>

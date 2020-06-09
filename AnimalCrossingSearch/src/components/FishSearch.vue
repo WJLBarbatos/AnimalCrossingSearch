@@ -97,7 +97,7 @@ export default {
                             j++
                         ) {
                             if (fishList[i].appearNorth[j] === month) {
-                                console.log("i: " + i + " , j: " + j);
+                                //console.log("i: " + i + " , j: " + j);
                                 tempList[index] = fishList[i];
                                 index++;
                                 continue;
