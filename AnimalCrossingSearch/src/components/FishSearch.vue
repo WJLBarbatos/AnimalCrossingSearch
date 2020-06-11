@@ -48,7 +48,12 @@
         <div class="table" style="margin-top:2.7rem;">
             <div class="tabelCell" v-for="item in fishList">
                 <div class="content-id">{{item.id}}</div>
-                <div class="content">{{item.name}}</div>
+                <div class="content">
+                    <img v-bind:src="item.icon" style="width:1rem;height:1rem;" />
+                    <br />
+                    {{item.name}}
+                </div>
+
                 <div class="content">{{item.sellPrice}}</div>
                 <div class="content">{{item.location}}</div>
                 <div style="width: 25%; display: inline-block;">

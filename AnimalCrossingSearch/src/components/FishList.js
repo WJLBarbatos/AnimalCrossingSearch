@@ -2,7 +2,7 @@ export const fishList = [
     {
         id: "01",  //图鉴ID
         name: "红目鲫",  //名称
-        //icon: require("../assets/img/fishes/01.png"),  //icon
+        icon: require("../assets/imgFishes/f01.png"),  //icon
         shadow: "微小",  //鱼影
         //shadowIcon: require("../assets/img/fishes/mini.png"),  //鱼影图示
         sellPrice: 900,  //卖店价格
@@ -16,7 +16,7 @@ export const fishList = [
     {
         id: "02",
         name: "溪哥",
-        icon: "",
+        icon: require("../assets/imgFishes/f02.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 200,  //卖店价格
@@ -30,7 +30,7 @@ export const fishList = [
     {
         id: "03",
         name: "鲫鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f03.png"),
         shadow: "小",
         shadowIcon: "",
         sellPrice: 160,  //卖店价格
@@ -44,7 +44,7 @@ export const fishList = [
     {
         id: "04",
         name: "雅罗鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f04.png"),
         shadow: "小",
         shadowIcon: "",
         sellPrice: 240,
@@ -58,7 +58,7 @@ export const fishList = [
     {
         id: "05",
         name: "鲤鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f05.png"),
         shadow: "中",
         shadowIcon: "",
         sellPrice: 300,  //卖店价格
@@ -72,7 +72,7 @@ export const fishList = [
     {
         id: "06",
         name: "锦鲤",
-        icon: "",
+        icon: require("../assets/imgFishes/f06.png"),
         shadow: "中",
         shadowIcon: "",
         sellPrice: 4000,  //卖店价格
@@ -86,7 +86,7 @@ export const fishList = [
     {
         id: "07",
         name: "金鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f07.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 1300,  //卖店价格
@@ -100,7 +100,7 @@ export const fishList = [
     {
         id: "08",
         name: "龙睛金鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f08.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 1300,  //卖店价格
@@ -114,7 +114,7 @@ export const fishList = [
     {
         id: "09",
         name: "兰寿金鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f09.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 4500,  //卖店价格
@@ -128,7 +128,7 @@ export const fishList = [
     {
         id: "10",
         name: "稻田鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f10.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 300,  //卖店价格
@@ -142,7 +142,7 @@ export const fishList = [
     {
         id: "11",
         name: "淡水龙虾",
-        icon: "",
+        icon: require("../assets/imgFishes/f11.png"),
         shadow: "小",
         shadowIcon: "",
         sellPrice: 200,  //卖店价格
@@ -156,7 +156,7 @@ export const fishList = [
     {
         id: "12",
         name: "鳖",
-        icon: "",
+        icon: require("../assets/imgFishes/f12.png"),
         shadow: "中",
         shadowIcon: "",
         sellPrice: 3750,  //卖店价格
@@ -170,7 +170,7 @@ export const fishList = [
     {
         id: "13",
         name: "拟鳄龟",
-        icon: "",
+        icon: require("../assets/imgFishes/f13.png"),
         shadow: "中",
         shadowIcon: "",
         sellPrice: 5000,  //卖店价格
@@ -184,7 +184,7 @@ export const fishList = [
     {
         id: "14",
         name: "蝌蚪",
-        icon: "",
+        icon: require("../assets/imgFishes/f14.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 100,  //卖店价格
@@ -198,7 +198,7 @@ export const fishList = [
     {
         id: "15",
         name: "青蛙",
-        icon: "",
+        icon: require("../assets/imgFishes/f15.png"),
         shadow: "小",
         shadowIcon: "",
         sellPrice: 120,  //卖店价格
@@ -212,7 +212,7 @@ export const fishList = [
     {
         id: "16",
         name: "塘鳢鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f16.png"),
         shadow: "小",
         shadowIcon: "",
         sellPrice: 400,  //卖店价格
@@ -226,7 +226,7 @@ export const fishList = [
     {
         id: "17",
         name: "泥鳅",
-        icon: "",
+        icon: require("../assets/imgFishes/f17.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 400,  //卖店价格
@@ -240,7 +240,7 @@ export const fishList = [
     {
         id: "18",
         name: "鲶鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f18.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 200,  //卖店价格
@@ -254,7 +254,7 @@ export const fishList = [
     {
         id: "19",
         name: "黑鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f19.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 5500,  //卖店价格
@@ -268,7 +268,7 @@ export const fishList = [
     {
         id: "20",
         name: "篮腮太阳鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f20.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 180,  //卖店价格
@@ -282,7 +282,7 @@ export const fishList = [
     {
         id: "21",
         name: "黄鲈鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f21.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 300,  //卖店价格
@@ -296,7 +296,7 @@ export const fishList = [
     {
         id: "22",
         name: "黑鲈鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f22.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 400,  //卖店价格
@@ -310,7 +310,7 @@ export const fishList = [
     {
         id: "23",
         name: "吴郭鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f23.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 800,  //卖店价格
@@ -324,7 +324,7 @@ export const fishList = [
     {
         id: "24",
         name: "白斑狗鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f24.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 1800,  //卖店价格
@@ -338,7 +338,7 @@ export const fishList = [
     {
         id: "25",
         name: "西太公鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f25.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 400,  //卖店价格
@@ -352,7 +352,7 @@ export const fishList = [
     {
         id: "26",
         name: "香鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f26.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 900,  //卖店价格
@@ -366,7 +366,7 @@ export const fishList = [
     {
         id: "27",
         name: "樱花钩吻鲑",
-        icon: "",
+        icon: require("../assets/imgFishes/f27.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 1000,  //卖店价格
@@ -380,7 +380,7 @@ export const fishList = [
     {
         id: "28",
         name: "花羔红点鲑",
-        icon: "",
+        icon: require("../assets/imgFishes/f28.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 3800,  //卖店价格
@@ -394,7 +394,7 @@ export const fishList = [
     {
         id: "29",
         name: "金鳟",
-        icon: "",
+        icon: require("../assets/imgFishes/f29.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 15000,  //卖店价格
@@ -408,7 +408,7 @@ export const fishList = [
     {
         id: "30",
         name: "远东哲罗鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f30.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 15000,  //卖店价格
@@ -422,7 +422,7 @@ export const fishList = [
     {
         id: "31",
         name: "鲑鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f31.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 700,  //卖店价格
@@ -436,7 +436,7 @@ export const fishList = [
     {
         id: "32",
         name: "帝王鲑",
-        icon: "",
+        icon: require("../assets/imgFishes/f32.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 1800,  //卖店价格
@@ -450,7 +450,7 @@ export const fishList = [
     {
         id: "33",
         name: "中华绒螯蟹",
-        icon: "",
+        icon: require("../assets/imgFishes/f33.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 2000,  //卖店价格
@@ -464,7 +464,7 @@ export const fishList = [
     {
         id: "34",
         name: "孔雀鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f34.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 1300,  //卖店价格
@@ -478,7 +478,7 @@ export const fishList = [
     {
         id: "35",
         name: "温泉医生鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f35.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 1500,  //卖店价格
@@ -492,7 +492,7 @@ export const fishList = [
     {
         id: "36",
         name: "神仙鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f36.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 3000,  //卖店价格
@@ -506,7 +506,7 @@ export const fishList = [
     {
         id: "37",
         name: "斗鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f37.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 2500,  //卖店价格
@@ -520,7 +520,7 @@ export const fishList = [
     {
         id: "38",
         name: "霓虹灯鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f38.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 500,  //卖店价格
@@ -534,7 +534,7 @@ export const fishList = [
     {
         id: "39",
         name: "彩虹鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f39.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 800,  //卖店价格
@@ -548,7 +548,7 @@ export const fishList = [
     {
         id: "40",
         name: "食人鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f40.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 2500,  //卖店价格
@@ -562,7 +562,7 @@ export const fishList = [
     {
         id: "41",
         name: "骨舌鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f41.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 10000,  //卖店价格
@@ -576,7 +576,7 @@ export const fishList = [
     {
         id: "42",
         name: "黄金河虎",
-        icon: "",
+        icon: require("../assets/imgFishes/f42.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 15000,  //卖店价格
@@ -590,7 +590,7 @@ export const fishList = [
     {
         id: "43",
         name: "雀鳝",
-        icon: "",
+        icon: require("../assets/imgFishes/f43.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 6000,  //卖店价格
@@ -604,7 +604,7 @@ export const fishList = [
     {
         id: "44",
         name: "巨骨舌鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f44.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 10000,  //卖店价格
@@ -618,7 +618,7 @@ export const fishList = [
     {
         id: "45",
         name: "恩氏多鳍鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f45.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 4000,  //卖店价格
@@ -632,7 +632,7 @@ export const fishList = [
     {
         id: "46",
         name: "鲟鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f46.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 10000,  //卖店价格
@@ -646,7 +646,7 @@ export const fishList = [
     {
         id: "47",
         name: "海蝴蝶",
-        icon: "",
+        icon: require("../assets/imgFishes/f47.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 1000,  //卖店价格
@@ -660,7 +660,7 @@ export const fishList = [
     {
         id: "48",
         name: "海马",
-        icon: "",
+        icon: require("../assets/imgFishes/f48.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 1100,  //卖店价格
@@ -674,7 +674,7 @@ export const fishList = [
     {
         id: "49",
         name: "小丑鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f49.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 650,  //卖店价格
@@ -688,7 +688,7 @@ export const fishList = [
     {
         id: "50",
         name: "拟刺尾鲷",
-        icon: "",
+        icon: require("../assets/imgFishes/f50.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 1000,  //卖店价格
@@ -702,7 +702,7 @@ export const fishList = [
     {
         id: "51",
         name: "耳带蝴蝶鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f51.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 1000,  //卖店价格
@@ -716,7 +716,7 @@ export const fishList = [
     {
         id: "52",
         name: "苏眉鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f52.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 10000,  //卖店价格
@@ -730,7 +730,7 @@ export const fishList = [
     {
         id: "53",
         name: "狮子鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f53.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 500,  //卖店价格
@@ -744,7 +744,7 @@ export const fishList = [
     {
         id: "54",
         name: "河豚",
-        icon: "",
+        icon: require("../assets/imgFishes/f54.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 5000,  //卖店价格
@@ -758,7 +758,7 @@ export const fishList = [
     {
         id: "55",
         name: "刺豚",
-        icon: "",
+        icon: require("../assets/imgFishes/f55.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 250,  //卖店价格
@@ -772,7 +772,7 @@ export const fishList = [
     {
         id: "56",
         name: "凤尾鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f56.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 200,  //卖店价格
@@ -786,7 +786,7 @@ export const fishList = [
     {
         id: "57",
         name: "竹荚鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f57.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 150,  //卖店价格
@@ -800,7 +800,7 @@ export const fishList = [
     {
         id: "58",
         name: "条石鲷",
-        icon: "",
+        icon: require("../assets/imgFishes/f58.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 5000,  //卖店价格
@@ -814,7 +814,7 @@ export const fishList = [
     {
         id: "59",
         name: "鲈鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f59.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 400,  //卖店价格
@@ -828,7 +828,7 @@ export const fishList = [
     {
         id: "60",
         name: "鲷鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f60.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 3000,  //卖店价格
@@ -842,7 +842,7 @@ export const fishList = [
     {
         id: "61",
         name: "鲽鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f61.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 300,  //卖店价格
@@ -856,7 +856,7 @@ export const fishList = [
     {
         id: "62",
         name: "比目鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f62.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 800,  //卖店价格
@@ -870,7 +870,7 @@ export const fishList = [
     {
         id: "63",
         name: "鱿鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f63.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 500,  //卖店价格
@@ -884,7 +884,7 @@ export const fishList = [
     {
         id: "64",
         name: "裸胸鳝",
-        icon: "",
+        icon: require("../assets/imgFishes/f64.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 2000,  //卖店价格
@@ -898,7 +898,7 @@ export const fishList = [
     {
         id: "65",
         name: "五彩鳗",
-        icon: "",
+        icon: require("../assets/imgFishes/f65.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 600,  //卖店价格
@@ -912,7 +912,7 @@ export const fishList = [
     {
         id: "66",
         name: "鲔鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f66.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 7000,  //卖店价格
@@ -926,7 +926,7 @@ export const fishList = [
     {
         id: "67",
         name: "旗鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f67.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 10000,  //卖店价格
@@ -940,7 +940,7 @@ export const fishList = [
     {
         id: "68",
         name: "白面弄鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f68.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 4500,  //卖店价格
@@ -954,7 +954,7 @@ export const fishList = [
     {
         id: "69",
         name: "鬼头刀",
-        icon: "",
+        icon: require("../assets/imgFishes/f69.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 12000,  //卖店价格
@@ -968,7 +968,7 @@ export const fishList = [
     {
         id: "70",
         name: "翻车鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f70.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 4000,  //卖店价格
@@ -982,7 +982,7 @@ export const fishList = [
     {
         id: "71",
         name: "鹞鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f71.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 3000,  //卖店价格
@@ -996,7 +996,7 @@ export const fishList = [
     {
         id: "72",
         name: "锯鲨",
-        icon: "",
+        icon: require("../assets/imgFishes/f72.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 12000,  //卖店价格
@@ -1010,7 +1010,7 @@ export const fishList = [
     {
         id: "73",
         name: "双髻鲨",
-        icon: "",
+        icon: require("../assets/imgFishes/f73.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 8000,  //卖店价格
@@ -1024,7 +1024,7 @@ export const fishList = [
     {
         id: "74",
         name: "鲨鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f74.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 15000,  //卖店价格
@@ -1038,7 +1038,7 @@ export const fishList = [
     {
         id: "75",
         name: "鲸鲨",
-        icon: "",
+        icon: require("../assets/imgFishes/f75.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 13000,  //卖店价格
@@ -1052,7 +1052,7 @@ export const fishList = [
     {
         id: "76",
         name: "吸盘鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f76.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 1500,  //卖店价格
@@ -1066,7 +1066,7 @@ export const fishList = [
     {
         id: "77",
         name: "灯笼鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f77.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 2500,  //卖店价格
@@ -1080,7 +1080,7 @@ export const fishList = [
     {
         id: "78",
         name: "皇带鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f78.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 9000,  //卖店价格
@@ -1094,7 +1094,7 @@ export const fishList = [
     {
         id: "79",
         name: "太平洋桶眼鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f79.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 15000,  //卖店价格
@@ -1108,7 +1108,7 @@ export const fishList = [
     {
         id: "80",
         name: "矛尾鱼",
-        icon: "",
+        icon: require("../assets/imgFishes/f80.png"),
         shadow: "微小",
         shadowIcon: "",
         sellPrice: 15000,  //卖店价格
