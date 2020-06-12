@@ -2,8 +2,14 @@
     <div class="hello">
         <div class="head">
             <p class="title">动森简单搜</p>
-            <button class="btn" @click="goFish()">鱼类</button>
-            <button class="btn" @click="goInsect()">昆虫</button>
+            <button class="btn" @click="goFish()">
+                <img :src="fishImg" style="width:1rem;height:1rem" />
+                鱼类
+            </button>
+            <button class="btn" @click="goInsect()">
+                <img :src="insectImg" style="width:1rem;height:1rem" />
+                昆虫
+            </button>
             <br />
             <br />
             <hr />
@@ -13,6 +19,12 @@
 
 <script>
 export default {
+    data() {
+        return {
+            fishImg: "",
+            insectImg: ""
+        };
+    },
     methods: {
         goFish() {
             this.$router.push("/fish");
@@ -20,6 +32,14 @@ export default {
         goInsect() {
             this.$router.push("/insect");
         }
+    },
+    mounted() {
+        var fishId = Math.floor(Math.random() * 80);
+        fishId = fishId < 10 ? "0" + fishId : fishId;
+        this.fishImg = require("../assets/imgFishes/f" + fishId + ".png");
+        var insectId = Math.floor(Math.random() * 80);
+        insectId = insectId < 10 ? "0" + insectId : insectId;
+        this.insectImg = require("../assets/imgInsects/i" + insectId + ".png");
     }
 };
 </script>
