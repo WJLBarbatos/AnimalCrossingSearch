@@ -43,10 +43,14 @@
             <br />-->
         </div>
         <br />
-        <div class="table" style="margin-top:1.5rem;">
+        <div class="table" style="margin-top:2.0rem;">
             <div class="tabelCell" v-for="item in insectList">
                 <div class="content-id">{{item.id}}</div>
-                <div class="content">{{item.name}}</div>
+                <div class="content">
+                    <img v-bind:src="item.icon" style="width:1rem;height:1rem;margin-top:0.6rem;" />
+                    <br />
+                    {{item.name}}
+                </div>
                 <div class="content-price">{{item.sellPrice}}</div>
                 <div class="content">{{item.location}}</div>
                 <div style="width: 30%; display: inline-block;">

@@ -2,7 +2,7 @@ export const insectList = [
     {
         id: "01",  //图鉴ID
         name: "白粉蝶",  //名称
-        //icon: require("../assets/img/fishes/01.png"),  //icon
+        icon: require("../assets/imgInsects/i01.png"),  //icon
         shadow: "",  //鱼影
         //shadowIcon: require("../assets/img/fishes/mini.png"),  //鱼影图示
         sellPrice: 160,  //卖店价格
@@ -16,7 +16,7 @@ export const insectList = [
     {
         id: "02",
         name: "斑缘点粉蝶",
-        icon: "",
+        icon: require("../assets/imgInsects/i02.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 160,  //卖店价格
@@ -30,7 +30,7 @@ export const insectList = [
     {
         id: "03",
         name: "凤蝶",
-        icon: "",
+        icon: require("../assets/imgInsects/i03.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 240,  //卖店价格
@@ -44,7 +44,7 @@ export const insectList = [
     {
         id: "04",
         name: "乌鸦凤蝶",
-        icon: "",
+        icon: require("../assets/imgInsects/i04.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 2500,
@@ -57,8 +57,8 @@ export const insectList = [
     },
     {
         id: "05",
-        name: "清带凤蝶",
-        icon: "",
+        name: "青带凤蝶",
+        icon: require("../assets/imgInsects/i05.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 300,  //卖店价格
@@ -72,7 +72,7 @@ export const insectList = [
     {
         id: "06",
         name: "大白斑蝶",
-        icon: "",
+        icon: require("../assets/imgInsects/i06.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 1000,  //卖店价格
@@ -86,7 +86,7 @@ export const insectList = [
     {
         id: "07",
         name: "大紫蛱蝶",
-        icon: "",
+        icon: require("../assets/imgInsects/i07.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 3000,  //卖店价格
@@ -100,7 +100,7 @@ export const insectList = [
     {
         id: "08",
         name: "大桦斑蝶",
-        icon: "",
+        icon: require("../assets/imgInsects/i08.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 140,  //卖店价格
@@ -114,7 +114,7 @@ export const insectList = [
     {
         id: "09",
         name: "大蓝闪蝶",
-        icon: "",
+        icon: require("../assets/imgInsects/i09.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 4000,  //卖店价格
@@ -128,7 +128,7 @@ export const insectList = [
     {
         id: "10",
         name: "彩袄蛱蝶",
-        icon: "",
+        icon: require("../assets/imgInsects/i10.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 3000,  //卖店价格
@@ -142,7 +142,7 @@ export const insectList = [
     {
         id: "11",
         name: "红颈凤蝶",
-        icon: "",
+        icon: require("../assets/imgInsects/i11.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 2500,  //卖店价格
@@ -156,7 +156,7 @@ export const insectList = [
     {
         id: "12",
         name: "亚历山大蝶",
-        icon: "",
+        icon: require("../assets/imgInsects/i12.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 4000,  //卖店价格
@@ -170,7 +170,7 @@ export const insectList = [
     {
         id: "13",
         name: "飞蛾",
-        icon: "",
+        icon: require("../assets/imgInsects/i13.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 130,  //卖店价格
@@ -184,7 +184,7 @@ export const insectList = [
     {
         id: "14",
         name: "皇蛾",
-        icon: "",
+        icon: require("../assets/imgInsects/i14.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 3000,  //卖店价格
@@ -198,7 +198,7 @@ export const insectList = [
     {
         id: "15",
         name: "日落蛾",
-        icon: "",
+        icon: require("../assets/imgInsects/i15.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 2500,  //卖店价格
@@ -212,7 +212,7 @@ export const insectList = [
     {
         id: "16",
         name: "中华剑角蝗",
-        icon: "",
+        icon: require("../assets/imgInsects/i16.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 200,  //卖店价格
@@ -226,7 +226,7 @@ export const insectList = [
     {
         id: "17",
         name: "飞蝗",
-        icon: "",
+        icon: require("../assets/imgInsects/i17.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 600,  //卖店价格
@@ -240,7 +240,7 @@ export const insectList = [
     {
         id: "18",
         name: "稻蝗",
-        icon: "",
+        icon: require("../assets/imgInsects/i18.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 400,  //卖店价格
@@ -254,7 +254,7 @@ export const insectList = [
     {
         id: "19",
         name: "蚱蜢",
-        icon: "",
+        icon: require("../assets/imgInsects/i19.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 160,  //卖店价格
@@ -268,7 +268,7 @@ export const insectList = [
     {
         id: "20",
         name: "蟋蟀",
-        icon: "",
+        icon: require("../assets/imgInsects/i20.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 130,  //卖店价格
@@ -282,7 +282,7 @@ export const insectList = [
     {
         id: "21",
         name: "铃虫",
-        icon: "",
+        icon: require("../assets/imgInsects/i21.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 430,  //卖店价格
@@ -296,7 +296,7 @@ export const insectList = [
     {
         id: "22",
         name: "螳螂",
-        icon: "",
+        icon: require("../assets/imgInsects/i22.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 430,  //卖店价格
@@ -310,7 +310,7 @@ export const insectList = [
     {
         id: "23",
         name: "兰花螳螂",
-        icon: "",
+        icon: require("../assets/imgInsects/i23.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 2400,  //卖店价格
@@ -324,7 +324,7 @@ export const insectList = [
     {
         id: "24",
         name: "蜜蜂",
-        icon: "",
+        icon: require("../assets/imgInsects/i24.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 200,  //卖店价格
@@ -338,7 +338,7 @@ export const insectList = [
     {
         id: "25",
         name: "黄蜂",
-        icon: "",
+        icon: require("../assets/imgInsects/i25.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 2500,  //卖店价格
@@ -352,7 +352,7 @@ export const insectList = [
     {
         id: "26",
         name: "油蝉",
-        icon: "",
+        icon: require("../assets/imgInsects/i26.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 250,  //卖店价格
@@ -366,7 +366,7 @@ export const insectList = [
     {
         id: "27",
         name: "斑透翅蝉",
-        icon: "",
+        icon: require("../assets/imgInsects/i27.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 300,  //卖店价格
@@ -380,7 +380,7 @@ export const insectList = [
     {
         id: "28",
         name: "熊蝉",
-        icon: "",
+        icon: require("../assets/imgInsects/i28.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 500,  //卖店价格
@@ -394,7 +394,7 @@ export const insectList = [
     {
         id: "29",
         name: "寒蝉",
-        icon: "",
+        icon: require("../assets/imgInsects/i29.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 400,  //卖店价格
@@ -408,7 +408,7 @@ export const insectList = [
     {
         id: "30",
         name: "暮蝉",
-        icon: "",
+        icon: require("../assets/imgInsects/i30.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 550,  //卖店价格
@@ -422,7 +422,7 @@ export const insectList = [
     {
         id: "31",
         name: "蝉蜕",
-        icon: "",
+        icon: require("../assets/imgInsects/i31.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 10,  //卖店价格
@@ -436,7 +436,7 @@ export const insectList = [
     {
         id: "32",
         name: "红蜻蜓",
-        icon: "",
+        icon: require("../assets/imgInsects/i32.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 180,  //卖店价格
@@ -450,7 +450,7 @@ export const insectList = [
     {
         id: "33",
         name: "绿胸晏蜓",
-        icon: "",
+        icon: require("../assets/imgInsects/i33.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 230,  //卖店价格
@@ -464,7 +464,7 @@ export const insectList = [
     {
         id: "34",
         name: "无霸勾蜓",
-        icon: "",
+        icon: require("../assets/imgInsects/i34.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 4500,  //卖店价格
@@ -478,7 +478,7 @@ export const insectList = [
     {
         id: "35",
         name: "豆娘",
-        icon: "",
+        icon: require("../assets/imgInsects/i35.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 500,  //卖店价格
@@ -492,7 +492,7 @@ export const insectList = [
     {
         id: "36",
         name: "萤火虫",
-        icon: "",
+        icon: require("../assets/imgInsects/i36.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 300,  //卖店价格
@@ -506,7 +506,7 @@ export const insectList = [
     {
         id: "37",
         name: "蝼蛄",
-        icon: "",
+        icon: require("../assets/imgInsects/i37.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 500,  //卖店价格
@@ -520,7 +520,7 @@ export const insectList = [
     {
         id: "38",
         name: "水黾",
-        icon: "",
+        icon: require("../assets/imgInsects/i38.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 130,  //卖店价格
@@ -534,7 +534,7 @@ export const insectList = [
     {
         id: "39",
         name: "龙虱",
-        icon: "",
+        icon: require("../assets/imgInsects/i39.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 800,  //卖店价格
@@ -548,7 +548,7 @@ export const insectList = [
     {
         id: "40",
         name: "田鳖",
-        icon: "",
+        icon: require("../assets/imgInsects/i40.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 2000,  //卖店价格
@@ -562,7 +562,7 @@ export const insectList = [
     {
         id: "41",
         name: "椿象",
-        icon: "",
+        icon: require("../assets/imgInsects/i41.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 120,  //卖店价格
@@ -576,7 +576,7 @@ export const insectList = [
     {
         id: "42",
         name: "人面椿象",
-        icon: "",
+        icon: require("../assets/imgInsects/i42.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 1000,  //卖店价格
@@ -590,7 +590,7 @@ export const insectList = [
     {
         id: "43",
         name: "瓢虫",
-        icon: "",
+        icon: require("../assets/imgInsects/i43.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 200,  //卖店价格
@@ -604,7 +604,7 @@ export const insectList = [
     {
         id: "44",
         name: "虎甲虫",
-        icon: "",
+        icon: require("../assets/imgInsects/i44.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 1500,  //卖店价格
@@ -618,7 +618,7 @@ export const insectList = [
     {
         id: "45",
         name: "吉丁虫",
-        icon: "",
+        icon: require("../assets/imgInsects/i45.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 2400,  //卖店价格
@@ -632,7 +632,7 @@ export const insectList = [
     {
         id: "46",
         name: "提琴虫",
-        icon: "",
+        icon: require("../assets/imgInsects/i46.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 450,  //卖店价格
@@ -646,7 +646,7 @@ export const insectList = [
     {
         id: "47",
         name: "星天牛",
-        icon: "",
+        icon: require("../assets/imgInsects/i47.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 350,  //卖店价格
@@ -660,7 +660,7 @@ export const insectList = [
     {
         id: "48",
         name: "琉璃星天牛",
-        icon: "",
+        icon: require("../assets/imgInsects/i48.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 3000,  //卖店价格
@@ -674,7 +674,7 @@ export const insectList = [
     {
         id: "49",
         name: "宝石象鼻虫",
-        icon: "",
+        icon: require("../assets/imgInsects/i49.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 800,  //卖店价格
@@ -688,7 +688,7 @@ export const insectList = [
     {
         id: "50",
         name: "蜣螂",
-        icon: "",
+        icon: require("../assets/imgInsects/i50.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 3000,  //卖店价格
@@ -702,7 +702,7 @@ export const insectList = [
     {
         id: "51",
         name: "雪隐金龟",
-        icon: "",
+        icon: require("../assets/imgInsects/i51.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 300,  //卖店价格
@@ -716,7 +716,7 @@ export const insectList = [
     {
         id: "52",
         name: "宝石金龟",
-        icon: "",
+        icon: require("../assets/imgInsects/i52.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 10000,  //卖店价格
@@ -729,8 +729,8 @@ export const insectList = [
     },
     {
         id: "53",
-        name: "白铜锣花金龟",
-        icon: "",
+        name: "日铜锣花金龟",
+        icon: require("../assets/imgInsects/i53.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 200,  //卖店价格
@@ -744,7 +744,7 @@ export const insectList = [
     {
         id: "54",
         name: "歌利亚大角花金龟",
-        icon: "",
+        icon: require("../assets/imgInsects/i54.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 8000,  //卖店价格
@@ -758,7 +758,7 @@ export const insectList = [
     {
         id: "55",
         name: "锯锹金龟",
-        icon: "",
+        icon: require("../assets/imgInsects/i55.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 2000,  //卖店价格
@@ -772,7 +772,7 @@ export const insectList = [
     {
         id: "56",
         name: "深山锹金龟",
-        icon: "",
+        icon: require("../assets/imgInsects/i56.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 1000,  //卖店价格
@@ -786,7 +786,7 @@ export const insectList = [
     {
         id: "57",
         name: "大锹形虫",
-        icon: "",
+        icon: require("../assets/imgInsects/i57.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 10000,  //卖店价格
@@ -800,7 +800,7 @@ export const insectList = [
     {
         id: "58",
         name: "彩虹锹形虫",
-        icon: "",
+        icon: require("../assets/imgInsects/i58.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 6000,  //卖店价格
@@ -814,7 +814,7 @@ export const insectList = [
     {
         id: "59",
         name: "细身赤锹形虫",
-        icon: "",
+        icon: require("../assets/imgInsects/i59.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 8000,  //卖店价格
@@ -828,7 +828,7 @@ export const insectList = [
     {
         id: "60",
         name: "黄金鬼锹形虫",
-        icon: "",
+        icon: require("../assets/imgInsects/i60.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 12000,  //卖店价格
@@ -842,7 +842,7 @@ export const insectList = [
     {
         id: "61",
         name: "长颈鹿锯锹形虫",
-        icon: "",
+        icon: require("../assets/imgInsects/i61.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 12000,  //卖店价格
@@ -856,7 +856,7 @@ export const insectList = [
     {
         id: "62",
         name: "独角仙",
-        icon: "",
+        icon: require("../assets/imgInsects/i62.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 1350,  //卖店价格
@@ -869,8 +869,8 @@ export const insectList = [
     },
     {
         id: "63",
-        name: "高卡萨斯南阳大兜虫",
-        icon: "",
+        name: "高卡萨斯南洋大兜虫",
+        icon: require("../assets/imgInsects/i63.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 8000,  //卖店价格
@@ -884,7 +884,7 @@ export const insectList = [
     {
         id: "64",
         name: "象兜虫",
-        icon: "",
+        icon: require("../assets/imgInsects/i64.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 8000,  //卖店价格
@@ -898,7 +898,7 @@ export const insectList = [
     {
         id: "65",
         name: "长戟大兜虫",
-        icon: "",
+        icon: require("../assets/imgInsects/i65.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 12000,  //卖店价格
@@ -912,7 +912,7 @@ export const insectList = [
     {
         id: "66",
         name: "竹节虫",
-        icon: "",
+        icon: require("../assets/imgInsects/i66.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 600,  //卖店价格
@@ -926,7 +926,7 @@ export const insectList = [
     {
         id: "67",
         name: "叶竹节虫",
-        icon: "",
+        icon: require("../assets/imgInsects/i67.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 600,  //卖店价格
@@ -940,7 +940,7 @@ export const insectList = [
     {
         id: "68",
         name: "蓑衣虫",
-        icon: "",
+        icon: require("../assets/imgInsects/i68.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 600,  //卖店价格
@@ -954,7 +954,7 @@ export const insectList = [
     {
         id: "69",
         name: "蚂蚁",
-        icon: "",
+        icon: require("../assets/imgInsects/i69.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 80,  //卖店价格
@@ -968,7 +968,7 @@ export const insectList = [
     {
         id: "70",
         name: "寄居蟹",
-        icon: "",
+        icon: require("../assets/imgInsects/i70.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 1000,  //卖店价格
@@ -982,7 +982,7 @@ export const insectList = [
     {
         id: "71",
         name: "海蟑螂",
-        icon: "",
+        icon: require("../assets/imgInsects/i71.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 200,  //卖店价格
@@ -996,7 +996,7 @@ export const insectList = [
     {
         id: "72",
         name: "苍蝇",
-        icon: "",
+        icon: require("../assets/imgInsects/i72.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 60,  //卖店价格
@@ -1010,7 +1010,7 @@ export const insectList = [
     {
         id: "73",
         name: "蚊子",
-        icon: "",
+        icon: require("../assets/imgInsects/i73.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 130,  //卖店价格
@@ -1024,7 +1024,7 @@ export const insectList = [
     {
         id: "74",
         name: "跳蚤",
-        icon: "",
+        icon: require("../assets/imgInsects/i74.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 70,  //卖店价格
@@ -1038,7 +1038,7 @@ export const insectList = [
     {
         id: "75",
         name: "蜗牛",
-        icon: "",
+        icon: require("../assets/imgInsects/i75.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 250,  //卖店价格
@@ -1052,7 +1052,7 @@ export const insectList = [
     {
         id: "76",
         name: "鼠妇",
-        icon: "",
+        icon: require("../assets/imgInsects/i76.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 250,  //卖店价格
@@ -1066,7 +1066,7 @@ export const insectList = [
     {
         id: "77",
         name: "蜈蚣",
-        icon: "",
+        icon: require("../assets/imgInsects/i77.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 300,  //卖店价格
@@ -1080,7 +1080,7 @@ export const insectList = [
     {
         id: "78",
         name: "蜘蛛",
-        icon: "",
+        icon: require("../assets/imgInsects/i78.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 600,  //卖店价格
@@ -1094,7 +1094,7 @@ export const insectList = [
     {
         id: "79",
         name: "狼蛛",
-        icon: "",
+        icon: require("../assets/imgInsects/i79.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 8000,  //卖店价格
@@ -1108,7 +1108,7 @@ export const insectList = [
     {
         id: "80",
         name: "蝎子",
-        icon: "",
+        icon: require("../assets/imgInsects/i80.png"),
         shadow: "",
         shadowIcon: "",
         sellPrice: 8000,  //卖店价格
