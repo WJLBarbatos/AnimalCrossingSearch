@@ -10,8 +10,22 @@
                 <img :src="insectImg" style="width:1rem;height:1rem" />
                 昆虫
             </button>
+            <button class="btn" @click="goEmoticons()">
+                <!-- <img :src="insectImg" style="width:1rem;height:1rem" /> -->
+                表情
+            </button>
             <br />
+            <br />test:
             <br />
+            <iframe
+                frameborder="no"
+                border="0"
+                marginwidth="0"
+                marginheight="0"
+                width="280"
+                height="52"
+                src="//music.163.com/outchain/player?type=2&id=1433996693&auto=1&height=32"
+            ></iframe>
             <hr />
         </div>
     </div>
@@ -31,6 +45,9 @@ export default {
         },
         goInsect() {
             this.$router.push("/insect");
+        },
+        goEmoticons() {
+            this.$router.push("/emoticon");
         }
     },
     mounted() {
