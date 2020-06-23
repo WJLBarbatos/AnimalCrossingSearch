@@ -22,10 +22,12 @@
                 <label for="isChengshu">成熟</label>
                 <input type="checkbox" id="isPutong" v-model="isPutong" />
                 <label for="isPutong">普通</label>
-                <!-- <input type="radio" id="one" value="North" v-model="picked" />
-                <label for="one">北半球</label>
-                <input type="radio" id="two" value="South" v-model="picked" />
-                <label for="two">南半球</label>-->
+                <p>
+                    *表情名的颜色：
+                    <span style="color:red">特殊表情</span>
+                    ，
+                    <span style="color:gray">默认表情</span>
+                </p>
             </div>
             <br />
 
@@ -41,12 +43,15 @@
         <div class="table" style="margin-top:2.5rem;">
             <div class="tabelCell" v-for="item in emoticonsList">
                 <div class="content-id">{{item.id}}</div>
-                <div class="content">
-                    <!-- <img v-bind:src="item.icon" style="width:1rem;height:1rem;margin-top:0.6rem;" />
-                    <br />-->
-                    {{item.name}}
-                </div>
-                <div class="content-price">{{item.type}}</div>
+
+                <!-- <img v-bind:src="item.icon" style="width:1rem;height:1rem;margin-top:0.6rem;" />
+                <br />-->
+                <div class="content-name-ssr" v-if="item.sp===2">{{item.name}}</div>
+                <div class="content-name-default" v-if="item.sp===1">{{item.name}}</div>
+                <div class="content-name" v-if="item.sp===0">{{item.name}}</div>
+
+                <div class="content">{{item.type}}</div>
+
                 <!-- <div class="content">{{item.shadow}}</div> -->
                 <hr />
             </div>
@@ -191,6 +196,32 @@ export default {
 .content-price {
     /* text-align: center; */
     /* top: -0.8rem; */
+    display: inline-block;
+    position: relative;
+    width: 12%;
+}
+
+.content-name {
+    /* text-align: center; */
+    /* top: -0.8rem; */
+    display: inline-block;
+    position: relative;
+    width: 12%;
+}
+
+.content-name-ssr {
+    /* text-align: center; */
+    /* top: -0.8rem; */
+    color: red;
+    display: inline-block;
+    position: relative;
+    width: 12%;
+}
+
+.content-name-default {
+    /* text-align: center; */
+    /* top: -0.8rem; */
+    color: gray;
     display: inline-block;
     position: relative;
     width: 12%;
