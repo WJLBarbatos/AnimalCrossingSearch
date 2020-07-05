@@ -10,6 +10,10 @@
                 <img :src="insectImg" style="width:1rem;height:1rem" />
                 昆虫
             </button>
+            <button class="btn" @click="goSea()">
+                <!-- <img :src="insectImg" style="width:1rem;height:1rem" /> -->
+                海产
+            </button>
             <button class="btn" @click="goEmoticons()">
                 <!-- <img :src="insectImg" style="width:1rem;height:1rem" /> -->
                 表情
@@ -45,6 +49,9 @@ export default {
         },
         goInsect() {
             this.$router.push("/insect");
+        },
+        goSea() {
+            this.$router.push("/sea");
         },
         goEmoticons() {
             this.$router.push("/emoticon");
