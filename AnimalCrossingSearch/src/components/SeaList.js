@@ -5,10 +5,10 @@ export const seaList = [
         icon: '',  //icon
         shadow: "",  //鱼影
         sellPrice: 600,  //卖店价格
-        appearNorth: [1, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //北半球出现月份
-        // appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
-        northDesc: "4-1月",
-        //southDesc: "3-12月",
+        appearNorth: [1, 2, 3, 4, 5, 6, 7, 10, 11, 12],  //北半球出现月份
+        appearSouth: [1, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        northDesc: "10-7月",
+        southDesc: "4-1月",
         appearTime: "全天",  //出现时间段
     },
     {
@@ -18,9 +18,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 900,  //卖店价格
         appearNorth: [6, 7, 8, 9],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [1, 2, 3, 12],  //南半球出现月份
         northDesc: "6-9月",
-        //southDesc: "3-12月",
+        southDesc: "12-3月",
         appearTime: "全天",  //出现时间段
     },
     {
@@ -30,9 +30,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 500,  //卖店价格
         appearNorth: [1, 2, 3, 4, 11, 12],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [5, 6, 7, 8, 9, 10],  //南半球出现月份
         northDesc: "11-4月",
-        //southDesc: "3-12月",
+        southDesc: "5-10月",
         appearTime: "全天",  //出现时间段
     },
     {
@@ -42,9 +42,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 10000,  //卖店价格
         appearNorth: [1, 2, 11, 12],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [5, 6, 7, 8],  //南半球出现月份
         northDesc: "11-2月",
-        //southDesc: "3-12月",
+        southDesc: "5-8月",
         appearTime: "16-9时",  //出现时间段
     },
     {
@@ -54,9 +54,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 500,  //卖店价格
         appearNorth: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
         northDesc: "全年",
-        //southDesc: "3-12月",
+        southDesc: "全年",
         appearTime: "全天",  //出现时间段
     },
     {
@@ -66,9 +66,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 1700,  //卖店价格
         appearNorth: [5, 6, 7, 8, 9],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [1, 2, 3, 11, 12],  //南半球出现月份
         northDesc: "5-9月",
-        //southDesc: "3-12月",
+        southDesc: "11-3月",
         appearTime: "全天",  //出现时间段
     },
     {
@@ -78,9 +78,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 2000,  //卖店价格
         appearNorth: [5, 6, 7, 8, 9],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [1, 2, 3, 11, 12],  //南半球出现月份
         northDesc: "5-9月",
-        //southDesc: "3-12月",
+        southDesc: "11-3月",
         appearTime: "16-9时",  //出现时间段
     },
     {
@@ -90,9 +90,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 500,  //卖店价格
         appearNorth: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
         northDesc: "全年",
-        //southDesc: "3-12月",
+        southDesc: "全年",
         appearTime: "全天",  //出现时间段
     },
     {
@@ -102,9 +102,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 600,  //卖店价格
         appearNorth: [7, 8, 9],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [1, 2, 3],  //南半球出现月份
         northDesc: "7-9月",
-        //southDesc: "3-12月",
+        southDesc: "1-3月",
         appearTime: "全天",  //出现时间段
     },
     {
@@ -114,9 +114,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 600,  //卖店价格
         appearNorth: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
         northDesc: "全年",
-        //southDesc: "3-12月",
+        southDesc: "全年",
         appearTime: "全天",  //出现时间段
     },
     {
@@ -126,9 +126,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 2800,  //卖店价格
         appearNorth: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
         northDesc: "全年",
-        //southDesc: "3-12月",
+        southDesc: "全年",
         appearTime: "全天",  //出现时间段
     },
     {
@@ -138,9 +138,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 1500,  //卖店价格
         appearNorth: [6, 7, 8, 9, 10, 11, 12],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [1, 2, 3, 4, 5, 6, 12],  //南半球出现月份
         northDesc: "6-12月",
-        //southDesc: "3-12月",
+        southDesc: "12-6月",
         appearTime: "全天",  //出现时间段
     },
     {
@@ -150,9 +150,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 1100,  //卖店价格
         appearNorth: [1, 2, 9, 10, 11, 12],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [3, 4, 5, 6, 7, 8],  //南半球出现月份
         northDesc: "9-2月",
-        //southDesc: "3-12月",
+        southDesc: "3-8月",
         appearTime: "全天",  //出现时间段
     },
     {
@@ -162,9 +162,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 1200,  //卖店价格
         appearNorth: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
         northDesc: "全年",
-        //southDesc: "3-12月",
+        southDesc: "全年",
         appearTime: "全天",  //出现时间段
     },
     {
@@ -174,9 +174,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 1000,  //卖店价格
         appearNorth: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
         northDesc: "全年",
-        //southDesc: "3-12月",
+        southDesc: "全年",
         appearTime: "全天",  //出现时间段
     },
     {
@@ -186,9 +186,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 1000,  //卖店价格
         appearNorth: [3, 4, 5, 9, 10, 11, 12],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [3, 4, 5, 6, 9, 10, 11],  //南半球出现月份
         northDesc: "3-5月，9-12月",
-        //southDesc: "3-12月",
+        southDesc: "3-6月，9-11月",
         appearTime: "全天",  //出现时间段
     },
     {
@@ -198,9 +198,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 2000,  //卖店价格
         appearNorth: [1, 6, 7, 8, 9, 10, 11, 12],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [1, 2, 3, 4, 5, 6, 7, 12],  //南半球出现月份
         northDesc: "6-1月",
-        //southDesc: "3-12月",
+        southDesc: "12-7月",
         appearTime: "16-9时",  //出现时间段
     },
     {
@@ -210,9 +210,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 15000,  //卖店价格
         appearNorth: [5, 6, 7, 8, 9],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [1, 2, 3, 11, 12],  //南半球出现月份
         northDesc: "5-9月",
-        //southDesc: "3-12月",
+        southDesc: "11-3月",
         appearTime: "全天",  //出现时间段
     },
     {
@@ -222,9 +222,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 1800,  //卖店价格
         appearNorth: [3, 4, 5, 6, 9, 10, 11],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [3, 4, 5, 9, 10, 11, 12],  //南半球出现月份
         northDesc: "3-6月，9-11月",
-        //southDesc: "3-12月",
+        southDesc: "3-5月，9-12月",
         appearTime: "16-9时",  //出现时间段
     },
     {
@@ -234,9 +234,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 1200,  //卖店价格
         appearNorth: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
         northDesc: "全年",
-        //southDesc: "3-12月",
+        southDesc: "全年",
         appearTime: "全天",  //出现时间段
     },
     {
@@ -245,10 +245,10 @@ export const seaList = [
         icon: '',  //icon
         shadow: "",  //鱼影
         sellPrice: 6000,  //卖店价格
-        appearNorth: [3, 4, 6, 9, 10, 11],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearNorth: [3, 4, 5, 9, 10, 11],  //北半球出现月份
+        appearSouth: [3, 4, 5, 9, 10, 11],  //南半球出现月份
         northDesc: "3-5月，9-11月",
-        //southDesc: "3-12月",
+        southDesc: "3-5月，9-11月",
         appearTime: "全天",  //出现时间段
     },
     {
@@ -258,9 +258,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 10000,  //卖店价格
         appearNorth: [5, 6, 7, 8],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [1, 2, 11, 12],  //南半球出现月份
         northDesc: "5-8月",
-        //southDesc: "3-12月",
+        southDesc: "11-2月",
         appearTime: "16-9时",  //出现时间段
     },
     {
@@ -270,9 +270,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 1400,  //卖店价格
         appearNorth: [3, 4, 5, 6],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [9, 10, 11, 12],  //南半球出现月份
         northDesc: "3-6月",
-        //southDesc: "3-12月",
+        southDesc: "9-12月",
         appearTime: "21-4时",  //出现时间段
     },
     {
@@ -282,9 +282,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 2200,  //卖店价格
         appearNorth: [6, 7, 8, 9, 10, 11],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [1, 2, 3, 4, 5, 12],  //南半球出现月份
         northDesc: "6-11月",
-        //southDesc: "3-12月",
+        southDesc: "12-5月",
         appearTime: "全天",  //出现时间段
     },
     {
@@ -294,9 +294,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 1900,  //卖店价格
         appearNorth: [1, 2, 3, 4, 5, 11, 12],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [5, 6, 7, 8, 9, 10, 11],  //南半球出现月份
         northDesc: "11-5月",
-        //southDesc: "3-12月",
+        southDesc: "5-11月",
         appearTime: "全天",  //出现时间段
     },
     {
@@ -306,9 +306,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 6000,  //卖店价格
         appearNorth: [1, 2, 3, 4, 11, 12],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [5, 6, 7, 8, 9, 10],  //南半球出现月份
         northDesc: "11-4月",
-        //southDesc: "3-12月",
+        southDesc: "5-10月",
         appearTime: "全天",  //出现时间段
     },
     {
@@ -318,9 +318,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 8000,  //卖店价格
         appearNorth: [1, 2, 3, 11, 12],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [5, 6, 7, 8, 9],  //南半球出现月份
         northDesc: "11-3月",
-        //southDesc: "3-12月",
+        southDesc: "5-9月",
         appearTime: "全天",  //出现时间段
     },
     {
@@ -330,9 +330,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 600,  //卖店价格
         appearNorth: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
         northDesc: "全年",
-        //southDesc: "3-12月",
+        southDesc: "全年",
         appearTime: "全天",  //出现时间段
     },
     {
@@ -342,9 +342,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 12000,  //卖店价格
         appearNorth: [3, 4],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [9, 10],  //南半球出现月份
         northDesc: "3-4月",
-        //southDesc: "3-12月",
+        southDesc: "9-10月",
         appearTime: "全天",  //出现时间段
     },
     {
@@ -354,9 +354,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 3000,  //卖店价格
         appearNorth: [6, 7, 8, 9],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [1, 2, 3, 12],  //南半球出现月份
         northDesc: "6-9月",
-        //southDesc: "3-12月",
+        southDesc: "12-3月",
         appearTime: "16-9时",  //出现时间段
     },
     {
@@ -366,9 +366,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 1400,  //卖店价格
         appearNorth: [1, 2, 9, 10, 11, 12],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [3, 4, 5, 6, 7, 8],  //南半球出现月份
         northDesc: "9-2月",
-        //southDesc: "3-12月",
+        southDesc: "3-8月",
         appearTime: "16-9时",  //出现时间段
     },
     {
@@ -378,9 +378,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 2500,  //卖店价格
         appearNorth: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
         northDesc: "全年",
-        //southDesc: "3-12月",
+        southDesc: "全年",
         appearTime: "16-9时",  //出现时间段
     },
     {
@@ -390,9 +390,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 5000,  //卖店价格
         appearNorth: [10, 11, 12],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [4, 5, 6],  //南半球出现月份
         northDesc: "10-12月",
-        //southDesc: "3-12月",
+        southDesc: "4-6月",
         appearTime: "21-4时",  //出现时间段
     },
     {
@@ -402,9 +402,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 4500,  //卖店价格
         appearNorth: [1, 4, 5, 6, 12],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [6, 7, 10, 11, 12],  //南半球出现月份
         northDesc: "4-6月，12-1月",
-        //southDesc: "3-12月",
+        southDesc: "6-7月，10-12月",
         appearTime: "全天",  //出现时间段
     },
     {
@@ -414,9 +414,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 12000,  //卖店价格
         appearNorth: [7, 8, 9, 10],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [1, 2, 3, 4],  //南半球出现月份
         northDesc: "7-10月",
-        //southDesc: "3-12月",
+        southDesc: "1-4月",
         appearTime: "9-16时，21-4时",  //出现时间段
     },
     {
@@ -426,9 +426,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 2500,  //卖店价格
         appearNorth: [7, 8, 9],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [1, 2, 3],  //南半球出现月份
         northDesc: "7-9月",
-        //southDesc: "3-12月",
+        southDesc: "1-3月",
         appearTime: "21-4时",  //出现时间段
     },
     {
@@ -438,9 +438,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 1500,  //卖店价格
         appearNorth: [4, 5, 6, 7, 8],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [1, 2, 10, 11, 12],  //南半球出现月份
         northDesc: "4-8月",
-        //southDesc: "3-12月",
+        southDesc: "10-2月",
         appearTime: "全天",  //出现时间段
     },
     {
@@ -450,9 +450,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 1100,  //卖店价格
         appearNorth: [5, 6, 7, 8, 9, 10],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [1, 2, 3, 4, 11, 12],  //南半球出现月份
         northDesc: "5-10月",
-        //southDesc: "3-12月",
+        southDesc: "11-4月",
         appearTime: "4-21时",  //出现时间段
     },
     {
@@ -462,9 +462,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 700,  //卖店价格
         appearNorth: [8, 9],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [2, 3],  //南半球出现月份
         northDesc: "8-9月",
-        //southDesc: "3-12月",
+        southDesc: "2-3月",
         appearTime: "16-9时",  //出现时间段
     },
     {
@@ -474,9 +474,9 @@ export const seaList = [
         shadow: "",  //鱼影
         sellPrice: 5000,  //卖店价格
         appearNorth: [1, 2, 10, 11, 12],  //北半球出现月份
-        appearSouth: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],  //南半球出现月份
+        appearSouth: [4, 5, 6, 7, 8],  //南半球出现月份
         northDesc: "10-2月",
-        //southDesc: "3-12月",
+        southDesc: "4-8月",
         appearTime: "全天",  //出现时间段
     },
 ]

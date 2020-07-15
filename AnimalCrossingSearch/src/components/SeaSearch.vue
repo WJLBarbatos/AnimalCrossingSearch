@@ -7,9 +7,8 @@
                 <label for="checkbox">只显示本月可获得海产</label>
                 <input type="radio" id="one" value="North" v-model="picked" />
                 <label for="one">北半球</label>
-                <span style="color:red">南半球数据暂缺</span>
-                <!-- <input type="radio" id="two" value="South" v-model="picked" />
-                <label for="two">南半球</label>-->
+                <input type="radio" id="two" value="South" v-model="picked" />
+                <label for="two">南半球</label>
             </div>
             <br />
             <div>
@@ -41,8 +40,8 @@
                 <div class="content">{{item.location}}</div>
                 <div style="width: 30%; display: inline-block;">
                     <div class="north">{{item.northDesc}}</div>
-                    <!-- <hr />
-                    <div class="south">{{item.southDesc}}</div>-->
+                    <hr />
+                    <div class="south">{{item.southDesc}}</div>
                     <hr />
                     <div>{{item.appearTime}}</div>
                 </div>
